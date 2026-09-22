@@ -1,0 +1,8 @@
+# Sensitive configuration
+config.yaml
+*.local.yaml
+
+# Build and runtime temp
+tmp/
+bin/
+dist/
