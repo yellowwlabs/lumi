@@ -1,0 +1,14 @@
+server:
+  port: "8080"
+  host: "0.0.0.0"
+  public_api_url: "http://localhost:8080"
+
+database:
+  url: "postgresql://lumi:lumi@postgres:5432/lumi?sslmode=disable&connect_timeout=10"
+
+redis:
+  url: "redis:6379"
+  password: ""
+
+jwt:
+  secret: "dev-only-secret-change-me"

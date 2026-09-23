@@ -1,0 +1,9 @@
+services:
+  backend:
+    build:
+      context: ../backend
+      dockerfile: ../infra/backend.Dockerfile
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./config.docker.yaml:/app/config.yaml:ro
